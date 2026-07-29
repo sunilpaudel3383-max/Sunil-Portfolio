@@ -10,8 +10,7 @@ export const profile = {
 }
 
 export const stats = [
-  { value: '75.89%', label: 'B.E. Civil Engineering' },
-  { value: '3', label: 'Research Publications' },
+   { value: '3', label: 'Research Publications' },
   { value: '3+', label: 'Years of Involvement' },
   { value: 'IOE', label: 'Thapathali Campus' },
 ]

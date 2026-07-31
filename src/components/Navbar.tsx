@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { navLinks, profile } from '../data'
-
+import ThemeToggle from './ThemeToggle'
 export default function Navbar() {
   const [open, setOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
@@ -72,6 +72,7 @@ export default function Navbar() {
           >
             Get in Touch
           </a>
+          <ThemeToggle />
         </div>
       )}
     </header>

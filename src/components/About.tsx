@@ -21,16 +21,12 @@ export default function About() {
         <div className="grid gap-10 lg:grid-cols-5 lg:gap-14">
           {/* Photo placeholder — replace the block below with your <img> */}
           <Reveal className="lg:col-span-2">
-            {/*
-              TO ADD YOUR PHOTO:
-              1. Drop the image into /public (e.g. /public/sunil.jpg)
-              2. Replace the placeholder <div> below with:
-                 <img
-                   src="/sunil.jpg"
-                   alt="Sunil Paudel"
-                   className="aspect-[4/5] w-full rounded-2xl object-cover"
-                 />
-            */}
+  <img
+    src="/sunil.jpg"
+    alt="Sunil Paudel"
+    className="aspect-[4/5] w-full rounded-2xl object-cover"
+  />
+</Reveal>
             <div className="liquid-glass flex aspect-[4/5] w-full flex-col items-center justify-center rounded-2xl border border-white/20 text-center">
               <User size={56} className="mb-4 text-white/40" strokeWidth={1.25} />
               <p className="text-sm text-gray-400">Your photo goes here</p>

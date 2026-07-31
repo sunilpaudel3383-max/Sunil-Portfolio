@@ -1,4 +1,4 @@
-import { User, GraduationCap, MapPin, BadgeCheck } from 'lucide-react'
+import { GraduationCap, MapPin, BadgeCheck } from 'lucide-react'
 import Reveal from './Reveal'
 import { profile, stats, education } from '../data'
 
@@ -18,7 +18,7 @@ export default function About() {
           </h2>
         </Reveal>
 
-        <<div className="grid gap-10 lg:grid-cols-5 lg:gap-14">
+        <div className="grid gap-10 lg:grid-cols-5 lg:gap-14">
           {/* Photo */}
           <Reveal className="lg:col-span-2">
             <img
@@ -26,12 +26,6 @@ export default function About() {
               alt="Sunil Paudel"
               className="aspect-[4/5] w-full rounded-2xl object-cover"
             />
-          </Reveal>
-            <div className="liquid-glass flex aspect-[4/5] w-full flex-col items-center justify-center rounded-2xl border border-white/20 text-center">
-              <User size={56} className="mb-4 text-white/40" strokeWidth={1.25} />
-              <p className="text-sm text-gray-400">Your photo goes here</p>
-              <p className="mt-1 text-xs text-gray-500">Add it in the About section later</p>
-            </div>
           </Reveal>
 
           {/* Bio + facts */}

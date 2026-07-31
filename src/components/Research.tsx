@@ -8,7 +8,7 @@ export default function Research() {
     <Section
       id="research"
       label="Research & Publications"
-      title="Published research and manuals."
+      title="Published Research and Manuals."
     >
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {publications.map((pub, i) => (

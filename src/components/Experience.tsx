@@ -5,7 +5,7 @@ import { experience } from '../data'
 
 export default function Experience() {
   return (
-    <Section id="experience" label="Experience" title="Where I've Applied My Craft.">
+    <Section id="experience" label="Experience" title="Where I've applied my craft.">
       <div className="space-y-5">
         {experience.map((job, i) => (
           <Reveal key={job.org} delay={i * 100}>

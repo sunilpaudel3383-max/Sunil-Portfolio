@@ -10,7 +10,8 @@ export const profile = {
 }
 
 export const stats = [
-   { value: '3', label: 'Research Publications' },
+  { value: '75.89%', label: 'B.E. Civil Engineering' },
+  { value: '3', label: 'Research Publications' },
   { value: '3+', label: 'Years of Involvement' },
   { value: 'IOE', label: 'Thapathali Campus' },
 ]
@@ -91,26 +92,7 @@ export const projects = [
     ],
   },
 ]
-export const workshops = [
-  {
-    title: 'Building Analysis & Design Workshop',
-    org: 'CESS, Thapathali Campus',
-    period: '2024',
-    detail: 'Hands-on training in structural analysis and design using AutoCAD and ETABS for residential buildings.',
-  },
-  {
-    title: 'GIS Applications in Civil Engineering',
-    org: 'Institute of Engineering, Thapathali Campus',
-    period: '2023',
-    detail: 'Workshop on spatial data analysis and mapping using Arc-GIS for infrastructure planning.',
-  },
-  {
-    title: 'Seismic Design & Retrofitting',
-    org: 'Nepal Engineering Council',
-    period: '2023',
-    detail: 'Training on seismic vulnerability assessment and retrofitting techniques for existing structures.',
-  },
-]
+
 export const skills = {
   Technical: [
     'AutoCAD',
@@ -204,7 +186,6 @@ export const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Workshops', href: '#workshops' },
   { label: 'Skills', href: '#skills' },
   { label: 'Research', href: '#research' },
   { label: 'Contact', href: '#contact' },

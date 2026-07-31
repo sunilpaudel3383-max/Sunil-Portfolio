@@ -22,7 +22,7 @@ export default function About() {
           {/* Photo */}
           <Reveal className="lg:col-span-2">
             <img
-              src="/sunil.jpg"
+              src="/sunil.png"
               alt="Sunil Paudel"
               className="aspect-[4/5] w-full rounded-2xl object-cover"
             />

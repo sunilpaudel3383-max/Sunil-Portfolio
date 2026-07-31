@@ -14,7 +14,7 @@ export default function About() {
             className="mb-12 max-w-2xl text-3xl font-normal md:text-4xl lg:text-5xl"
             style={{ letterSpacing: '-0.03em' }}
           >
-            Registered Civil Engineer based in Kathmandu.
+            Registered Civil Engineer Based in Kathmandu.
           </h2>
         </Reveal>
 

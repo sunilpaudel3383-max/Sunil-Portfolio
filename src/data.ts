@@ -91,7 +91,26 @@ export const projects = [
     ],
   },
 ]
-
+export const workshops = [
+  {
+    title: 'Building Analysis & Design Workshop',
+    org: 'CESS, Thapathali Campus',
+    period: '2024',
+    detail: 'Hands-on training in structural analysis and design using AutoCAD and ETABS for residential buildings.',
+  },
+  {
+    title: 'GIS Applications in Civil Engineering',
+    org: 'Institute of Engineering, Thapathali Campus',
+    period: '2023',
+    detail: 'Workshop on spatial data analysis and mapping using Arc-GIS for infrastructure planning.',
+  },
+  {
+    title: 'Seismic Design & Retrofitting',
+    org: 'Nepal Engineering Council',
+    period: '2023',
+    detail: 'Training on seismic vulnerability assessment and retrofitting techniques for existing structures.',
+  },
+]
 export const skills = {
   Technical: [
     'AutoCAD',

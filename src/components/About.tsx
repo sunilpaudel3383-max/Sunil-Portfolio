@@ -42,7 +42,7 @@ export default function About() {
                   <BadgeCheck size={16} className="text-white/70" /> Registered Civil Engineer
                 </span>
                 <span className="liquid-glass flex items-center gap-2 rounded-lg border border-white/20 px-4 py-2 text-sm text-gray-200">
-                  <GraduationCap size={16} className="text-white/70" /> IOE, Thapathali Campus
+                  <GraduationCap size={16} className="text-white/70" /> Research Enthusiast
                 </span>
                 <span className="liquid-glass flex items-center gap-2 rounded-lg border border-white/20 px-4 py-2 text-sm text-gray-200">
                   <MapPin size={16} className="text-white/70" /> {profile.location}
